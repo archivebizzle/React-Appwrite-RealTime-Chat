@@ -4,7 +4,7 @@ A chat app with real-time capabilities that utilizes Appwrite on the backend.
 
 > Tutorial Link Will be added here when posted.
 
-<img src="![Alt text](image.png)"/>
+
 
 
 ### Getting Started
