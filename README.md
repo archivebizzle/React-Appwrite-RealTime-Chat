@@ -24,7 +24,8 @@ export const COLLECTION_ID_MESSAGES = import.meta.env.VITE_COLLECTION_ID_MESSAGE
 
 const client = new Client()
     .setEndpoint(API_ENDPOINT) 
-    .setProject(PROJECT_ID);              
+    .setProject(PROJECT_ID);   
+           
 ...
 ```
 
@@ -38,6 +39,7 @@ In your appwrite console create a project and database.
     - user_id
     - username
     - body
+
 2. From your `messages` collection, go to the "settings" --> "Update Permissions" --> "+ Add Role" and select "Any". Give this user type "Create", "Read", "Update" and "Delete" permissions.
 
 Once you've set up your project you should be able to update all necessary env variables. 
