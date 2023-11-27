@@ -16,7 +16,9 @@ Create a new `.env` folder and create the necessary variables based on the `src/
 ```js
 
 //appwrite.Config.js
+
 ...
+
 export const API_ENDPOINT = import.meta.env.VITE_API_ENDPOINT
 export const PROJECT_ID = import.meta.env.VITE_PROJECT_ID
 export const DATABASE_ID = import.meta.env.VITE_DATABASE_ID
