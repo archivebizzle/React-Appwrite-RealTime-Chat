@@ -27,6 +27,7 @@ const client = new Client()
     .setProject(PROJECT_ID);   
            
 ...
+
 ```
 
 **Setting Up Appwrite Account**
