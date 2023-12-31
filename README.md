@@ -2,7 +2,7 @@
 
 A chat app with real-time capabilities that utilizes Appwrite on the backend. 
 
-### Getting Started
+## Getting Started
 
 After cloning the repo ensure you complete the necessary installations
 
