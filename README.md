@@ -27,7 +27,6 @@ export const COLLECTION_ID_MESSAGES = import.meta.env.VITE_COLLECTION_ID_MESSAGE
 const client = new Client()
     .setEndpoint(API_ENDPOINT) 
     .setProject(PROJECT_ID);
-... 
            
 ...
 
